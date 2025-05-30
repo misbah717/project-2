@@ -1,0 +1,175 @@
+.navbar-custom {
+      background-color: #4d4b4b; /* Dark background */
+      padding: 15px 0;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.8rem;
+      color: #FFD700;
+    }
+    .navbar-nav .nav-link {
+      color: #cfceca;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #FFD700; /* Yellow hover */
+      transform: translateY(-2px);
+    }
+    @media (max-width: 992px) {
+      .navbar-nav {
+        text-align: center;
+      }
+    }
+     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    
+  .unique-hero-section {
+    position: relative;
+    background-color: #000;
+  }
+
+  .unique-hero-section h1,
+  .unique-hero-section p {
+    text-shadow: 1px 1px 8px #000;
+  }
+
+  .btn-warning:hover {
+    background-color: #e6c200 !important;
+    box-shadow: 0 0 15px #FFD700;
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000 !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+.map-wrapper iframe {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.map-wrapper iframe:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.9);
+}
+.testimonials-section {
+  background: #000000;
+}
+
+.testimonial-card p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.testimonial-card:hover p {
+  color: #FFD700;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.6);
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
+.chef-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.8);
+  background-color: #333;
+}
+
+     .contact-float-wrapper {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1100;
+    background-color: #1a1a1a; /* Dark background panel */
+    padding: 15px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .contact-float {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-btn {
+    background: #FFD700;
+    color: #000;
+    border-radius: 40px;
+    padding: 12px 20px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 15px rgba(255, 215, 0, 0.8);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.35s ease;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .contact-btn i {
+    margin-right: 0;
+    transition: margin 0.35s ease;
+  }
+
+  .contact-btn span {
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.35s ease;
+    font-size: 16px;
+  }
+
+  .contact-btn:hover {
+    width: 180px;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+  .contact-btn:hover span {
+    opacity: 1;
+  }
+
+  @media (max-width: 576px) {
+    .contact-float-wrapper {
+      padding: 10px 6px;
+    }
+
+    .contact-btn {
+      width: 50px;
+      font-size: 20px;
+    }
+
+    .contact-btn:hover {
+      width: 140px;
+    }
+
+    .contact-btn span {
+      font-size: 14px;
+    }
+  }
+  
+  .footer-link:hover {
+    color: #FFD700 !important;
+    padding-left: 5px;
+    transition: all 0.3s ease;
+  }
+

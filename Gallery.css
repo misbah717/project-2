@@ -1,0 +1,108 @@
+.navbar-custom {
+      background-color: #4d4b4b; /* Dark background */
+      padding: 15px 0;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.8rem;
+      color: #FFD700;
+    }
+    .navbar-nav .nav-link {
+      color: #cfceca;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #FFD700; /* Yellow hover */
+      transform: translateY(-2px);
+    }
+    @media (max-width: 992px) {
+      .navbar-nav {
+        text-align: center;
+      }
+    }
+     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    .gallery-hero {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery-hero h1 {
+  color: #FFD700;
+}
+
+.gallery-hero p {
+  color: #fff8dc;
+  font-size: 1.25rem;
+}
+.btn-gold:hover {
+  background: #e6c200;
+  color: #111;
+  box-shadow: 0 0 15px #e6c200;
+  transform: scale(1.05);
+}
+
+.gallery-highlight-section p {
+  color: #f9f1d1;
+}
+
+.gallery-highlight-section h2 {
+  color: #FFD700;
+}
+
+@media (max-width: 768px) {
+  .gallery-highlight-section {
+    text-align: center;
+  }
+  .gallery-highlight-section .col-lg-6 {
+    margin-bottom: 2rem;
+  }
+}
+.testimonials-section p {
+  color: #ffeb99;
+  font-size: 1.1rem;
+}
+
+.testimonials-section h5 {
+  color: #FFD700;
+}
+
+.testimonials-section small {
+  color: #ccc;
+}
+
+.testimonial-card:hover {
+  background: rgba(255, 215, 0, 0.3);
+  border-color: #ffc107;
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.6);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.testimonials-section .testimonial-card {
+  transition: all 0.3s ease;
+}
+.gallery-img {
+  transition: transform 0.6s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.1);
+}
+.chef-card:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+.chef-card img {
+  transition: transform 0.5s ease-in-out;
+}
+.footer-link:hover {
+  color: #FFD700 !important;
+  padding-left: 5px;
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muj Restaurant</title>
+  <link rel="stylesheet" href="contact.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top shadow" data-aos="fade-down" data-aos-duration="1000">
+  <div class="container">
+    <a class="navbar-brand" href="#">Muj Restaurant</a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="unique-hero-section position-relative d-flex align-items-center text-white" id="home" style="height: 100vh; overflow: hidden; background: linear-gradient(to right, #000000, #111111);">
+  <!-- Diagonal Shape -->
+  <div class="diagonal-shape position-absolute top-0 start-0 w-100" style="height: 200px; background: #FFD700; clip-path: polygon(0 0, 100% 0, 0 100%); z-index: 1;"></div>
+
+  <!-- Background Image -->
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background: url('hero-bg.jpg') center/cover no-repeat; opacity: 0.2; z-index: 0;"></div>
+
+  <!-- Hero Content -->
+  <div class="container position-relative z-2" data-aos="fade-up">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="display-3 fw-bold mb-4" style="color: #FFD700; text-shadow: 2px 2px 10px black;">Taste Beyond Expectations</h1>
+        <p class="lead text-light">Welcome to Muj Restaurant, where luxury meets taste. Explore a culinary journey unlike any other.</p>
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="#menu" class="btn btn-warning text-dark px-4 py-2 rounded-pill shadow-sm">View Menu</a>
+          <a href="#contact" class="btn btn-outline-light px-4 py-2 rounded-pill border-2 shadow-sm">Contact Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---section 2-->
+<!-- Get in Touch Section -->
+<section class="get-in-touch-section py-5 bg-dark text-white position-relative">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Contact Form -->
+      <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-right">
+        <h2 class="mb-4" style="color: #FFD700;">Get in Touch</h2>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control shadow-sm" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control shadow-sm" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control shadow-sm" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn px-4 py-2 mt-2" style="background-color: #FFD700; color: black; border-radius: 25px;">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="bg-black rounded p-4 shadow" style="border-left: 5px solid #FFD700;">
+          <h4 style="color: #FFD700;">Our Contact Info</h4>
+          <p class="mt-3 mb-1"><strong>Address:</strong> Muj Restaurant, Main Road, Karachi</p>
+          <p class="mb-1"><strong>Phone:</strong> <a href="tel:+923001234567" class="text-white text-decoration-none">+92 300 1234567</a></p>
+          <p class="mb-1"><strong>Email:</strong> <a href="mailto:info@mujrestaurant.com" class="text-white text-decoration-none">info@mujrestaurant.com</a></p>
+          <p class="mb-0"><strong>WhatsApp:</strong> <a href="https://wa.me/923001234567" class="text-white text-decoration-none">Chat Now</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Decorative Shape -->
+  <svg class="position-absolute top-0 start-0 w-100" height="80" preserveAspectRatio="none" viewBox="0 0 100 100" fill="#000" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,0 C50,100 50,100 100,0 Z"></path>
+  </svg>
+</section>
+<!---section 3-->
+<!-- Customer Reviews Section -->
+<section class="customer-reviews-section py-5 bg-black text-white position-relative">
+  <div class="container">
+    <h2 class="text-center mb-5" style="color: #FFD700;">What Our Customers Say</h2>
+    <div class="row g-4">
+
+      <!-- Review 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="review-card p-4 rounded shadow" style="background: #111;">
+          <p class="mb-3 fst-italic">"The ambiance and food quality are unmatched. Truly a five-star experience!"</p>
+          <h5 class="mb-1" style="color: #FFD700;">Sarah Khan</h5>
+          <small>Food Blogger</small>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="review-card p-4 rounded shadow" style="background: #111;">
+          <p class="mb-3 fst-italic">"Exceptional flavors and outstanding service. Highly recommended!"</p>
+          <h5 class="mb-1" style="color: #FFD700;">Ahmed Ali</h5>
+          <small>Food Critic</small>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="review-card p-4 rounded shadow" style="background: #111;">
+          <p class="mb-3 fst-italic">"A perfect place for family dinners. Every dish is a delight!"</p>
+          <h5 class="mb-1" style="color: #FFD700;">Fatima Noor</h5>
+          <small>Regular Customer</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!---section 4-->
+<!-- Map Section -->
+<section class="map-section py-5 bg-black text-white">
+  <div class="container text-center">
+    <h2 class="mb-4" style="color: #FFD700;">Find Us Here</h2>
+    <div class="map-wrapper shadow rounded overflow-hidden" style="max-width: 900px; margin: 0 auto; border: 4px solid #FFD700; border-radius: 15px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.1234567890!2d74.3587414150869!3d31.520369651594896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904b3d3a1e3f1%3A0x123456789abcdef!2sMuj%20Restaurant!5e0!3m2!1sen!2s!4v1689345678901!5m2!1sen!2s"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+<!---section 5-->
+<!-- Contact Info Section -->
+<section class="contact-info-section py-5 bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="mb-5" style="color: #FFD700;">Get in Touch</h2>
+    <div class="row justify-content-center gx-5">
+      
+      <div class="col-md-4 mb-4">
+        <div class="info-box p-4 shadow rounded bg-black" style="border-left: 5px solid #FFD700;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FFD700;"></i>
+          <h5>Location</h5>
+          <p>123 Food Street, Cityname, Country</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="info-box p-4 shadow rounded bg-black" style="border-left: 5px solid #FFD700;">
+          <i class="fas fa-phone fa-2x mb-3" style="color: #FFD700;"></i>
+          <h5>Call Us</h5>
+          <p><a href="tel:+1234567890" style="color: #FFD700; text-decoration: none;">+1 234 567 890</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="info-box p-4 shadow rounded bg-black" style="border-left: 5px solid #FFD700;">
+          <i class="fas fa-envelope fa-2x mb-3" style="color: #FFD700;"></i>
+          <h5>Email</h5>
+          <p><a href="mailto:info@mujrestaurant.com" style="color: #FFD700; text-decoration: none;">info@mujrestaurant.com</a></p>
+        </div>
+      </div>
+      
+    </div>
+    <a href="#contact" class="btn btn-lg mt-4" style="background-color: #FFD700; color: black; border-radius: 30px; padding: 12px 40px; font-weight: 600; box-shadow: 0 6px 15px rgba(255, 215, 0, 0.6); transition: background-color 0.3s;">
+      Contact Now
+    </a>
+  </div>
+</section>
+<!---section 6-->
+<!-- Testimonials Section -->
+<section class="testimonials-section py-5 bg-black text-white">
+  <div class="container text-center">
+    <h2 class="mb-5" style="color: #FFD700;">What Our Customers Say</h2>
+    <div class="row justify-content-center gx-4">
+      
+      <div class="col-md-4 mb-4">
+        <div class="testimonial-card p-4 bg-dark rounded shadow" style="border-top: 4px solid #FFD700;">
+          <p class="fst-italic mb-4">"Absolutely loved the ambiance and the food! Every dish was a delight."</p>
+          <h5 class="fw-bold mb-1">Sarah Khan</h5>
+          <small style="color: #FFD700;">Food Blogger</small>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="testimonial-card p-4 bg-dark rounded shadow" style="border-top: 4px solid #FFD700;">
+          <p class="fst-italic mb-4">"Best dining experience in town. The staff were very courteous and attentive."</p>
+          <h5 class="fw-bold mb-1">Ahmed Ali</h5>
+          <small style="color: #FFD700;">Chef</small>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="testimonial-card p-4 bg-dark rounded shadow" style="border-top: 4px solid #FFD700;">
+          <p class="fst-italic mb-4">"Highly recommend for anyone looking for exquisite taste and great vibes."</p>
+          <h5 class="fw-bold mb-1">Nadia Mirza</h5>
+          <small style="color: #FFD700;">Food Enthusiast</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!---section 7-->
+<!-- Wrapper with dark background -->
+<div class="contact-float-wrapper">
+  <div class="contact-float">
+    <a href="https://wa.me/1234567890" target="_blank" class="contact-btn" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+    </a>
+    <a href="tel:+1234567890" class="contact-btn" aria-label="Call Now">
+      <i class="fas fa-phone-alt"></i><span>Call Now</span>
+    </a>
+  </div>
+</div>
+
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<!-- Reservation or Newsletter Section -->
+<section class="reservation-section position-relative py-5" style="background-color: #111;">
+  <div class="container position-relative z-2">
+    <div class="row align-items-center shadow-lg p-4 rounded-4" style="background: linear-gradient(to right, #000, #222); border: 2px solid #FFD700;">
+      
+      <!-- Left Side Text -->
+      <div class="col-md-6 mb-4 mb-md-0 text-white" data-aos="fade-right">
+        <h2 class="mb-3" style="color: #FFD700;">Stay in Touch</h2>
+        <p>Subscribe to our newsletter for exclusive offers, chef specials, and upcoming events at Muj Restaurant.</p>
+        <form class="mt-3 d-flex">
+          <input type="email" class="form-control rounded-start-5" placeholder="Your email address" required>
+          <button type="submit" class="btn" style="background-color: #FFD700; color: #000; border-radius: 0 30px 30px 0;">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="news img.jpg" alt="Newsletter" class="img-fluid" style="max-height: 300px; filter: drop-shadow(0 0 15px #FFD700);">
+      </div>
+    </div>
+  </div>
+
+  <!-- Decorative Shadow Circle -->
+  <div class="position-absolute top-0 end-0 translate-middle bg-warning rounded-circle opacity-25" style="width: 200px; height: 200px; z-index: 0;"></div>
+</section>
+
+<!-- Add FontAwesome CDN for icons in your <head> if not already added -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> -->
+<!-- Footer Section -->
+<footer class="footer-section text-white pt-5 pb-3" style="background-color: #000; position: relative; z-index: 1;">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Description -->
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <h3 style="color: #FFD700;">Muj Restaurant</h3>
+        <p class="text-light">Fine dining reimagined. Delicious food, elegant atmosphere, and premium service in every bite.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <h5 class="text-warning mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light text-decoration-none footer-link">Home</a></li>
+          <li><a href="#about" class="text-light text-decoration-none footer-link">About</a></li>
+          <li><a href="#menu" class="text-light text-decoration-none footer-link">Menu</a></li>
+          <li><a href="#contact" class="text-light text-decoration-none footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+        <h5 class="text-warning mb-3">Contact Us</h5>
+        <p><i class="bi bi-telephone-fill text-warning me-2"></i> +92 123 4567890</p>
+        <p><i class="bi bi-envelope-fill text-warning me-2"></i> info@mujrestaurant.com</p>
+        <p><i class="bi bi-geo-alt-fill text-warning me-2"></i> Gulberg, Lahore, Pakistan</p>
+      </div>
+
+    </div>
+
+    <hr class="text-light" />
+
+    <!-- Social Media + Copyright -->
+    <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+      <p class="mb-0 text-light">&copy; 2025 Muj Restaurant. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
